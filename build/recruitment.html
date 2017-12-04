@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta name="referrer" content="origin"></meta>
+		<title>Zeta Psi at VT</title>
+		<link type="text/css" rel="stylesheet" href="./css/recruitmentStyle.css"></link>
+		<link rel="shortcut icon" href="./images/favicon.ico"></link>
+	</head>
+
+	<body>
+		<div id = "topImage">
+			<p id = "title">
+				Zeta Psi - Alpha Pi Chapter
+			<p>
+		</div>
+		<nav>
+			<ul id = "fullMenu">
+				<a href = "index.html">
+					<li class = "menu">
+					About
+					</li>
+				</a>
+				<a href = "recruitment.html">
+					<li class = "menu">
+					Recruitment
+					</li>
+				</a>
+				<a href = "scholarship.html">
+					<li class = "menu">
+					Scholarship
+					</li>
+				</a>
+				<a href = "philanthropy.html">
+					<li class = "menu">
+					Philanthropy and Awards
+					</li>
+				</a>
+				<a href = "alumni.html">
+					<li class = "menu">
+					Alumni
+					</li>
+				</a>
+				<a href = "contact.html">
+					<li class = "menu">
+					Contact Us
+					</li>
+				</a>
+				<a href = "donations.html">
+					<li id = "donations">
+					Donate
+					</li>
+				</a>
+			</ul>
+		</nav>
+		
+		<div id = "lowerBackground">
+			<div id = "schedule">
+				<img id = "scheduleIMG" src = "./images/rushSchedule.png"></img>
+			</div>
+			<div id = "rightWrapper">
+				<div id = "words">
+					<h2>
+						Formal Recruitment Period
+					</h2>
+					
+					<p>
+					IFC recognized fraternities at Virginia Tech have a formal recruitment period once every semester which lasts about two weeks. 
+					We, at Zeta Psi, use this time to host several events such as poker night, bowling, pickup basketball, Sharkey&#39;s Wing Night,
+					bonfires, hiking the Cascades, and trips to the shooting range in order to get to know our potential candidates as well as
+					giving them a chance to learn about our chapter.
+					</p>
+				</div>
+				<div id = "imageWrapper">
+					<img id = "rushIMG" src = "./images/woofstockBrothers.png"></img>
+				</div>
+				<div id = "rushForm">
+					<br>
+					<h2>
+						Sign Up For Rush
+					</h2>
+					<!-- Change the email address contained in the action parameter to the rush chair -->
+					<form action="http://formspree.io/graham.wobig98@gmail.com" method="POST">
+						<input type="text" name="name" placeholder="Your Full Name" id = "firstInput">
+						<br><br>
+						<input type="email" name="email" placeholder="Your Email">
+						<br><br>
+						<select name="year">
+							<option value="freshman">Freshman</option>
+							<option value="sophomore">Sophomore</option>
+							<option value="junior">Junior</option>
+							<option value="senior">Senior</option>
+						</select>
+						<br><br>
+						<input type="submit" name="submit" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+	
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/recruitmentScript.js"></script>
+	
+</html>

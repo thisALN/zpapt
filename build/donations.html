@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Zeta Psi at VT</title>
+		<link type="text/css" rel="stylesheet" href="./css/donationsStyle.css"></link>
+		<link rel="shortcut icon" href="./images/favicon.ico"></link>
+	</head>
+
+	<body>
+		<div id = "topImage">
+			<p id = "title">
+				Zeta Psi - Alpha Pi Chapter
+			<p>
+		</div>
+		<nav>
+			<ul id = "fullMenu">
+				<a href = "index.html">
+					<li class = "menu">
+					About
+					</li>
+				</a>
+				<a href = "recruitment.html">
+					<li class = "menu">
+					Recruitment
+					</li>
+				</a>
+				<a href = "scholarship.html">
+					<li class = "menu">
+					Scholarship
+					</li>
+				</a>
+				<a href = "philanthropy.html">
+					<li class = "menu">
+					Philanthropy and Awards
+					</li>
+				</a>
+				<a href = "alumni.html">
+					<li class = "menu">
+					Alumni
+					</li>
+				</a>
+				<a href = "contact.html">
+					<li class = "menu">
+					Contact Us
+					</li>
+				</a>
+				<a href = "donations.html">
+					<li id = "donations">
+					Donate
+					</li>
+				</a>
+			</ul>
+		</nav>
+		<div id = "lowerBackground">
+			<h2>What Will Donations Be Used For?</h2>
+			<p>
+				At the Alpha Pi chapter at Virginia Tech, we pride ourselves in being one of the top chapters of Zeta Psi
+				worldwide, having received both local and national recognition. At the 168th Annual Convention, we won Bronze
+				for Most Outstanding Chapter of Zeta Psi. We are routinely in the running for the annual Comstock Award, given
+				to the most traveled chapter. We have won multiple intramural championships during our time at Virginia Tech.
+				And we pride ourselves for maintaining the best fraternity house in all of Blacksburg. All of these help us
+				uphold a high level of distinction on campus.
+			</p>
+				
+			<img class = "pDiv" src = "./images/paragraphDiv.png"></img>
+				
+			<p>	
+				In order to maintain this high level of distinction, we rely on our alumni and other charitable people to help
+				us succeed. Because of the nature of our organization, active member dues can only fulfill short-term
+				goals and expenses, while long-term projects require additional funding to help keep them on schedule. Since our
+				inception, alumni have been an essential source of funds for major improvements of both the fraternity house and
+				its future growth. This includes a newly built backyard fence, newly acquired trashcans, and more recreational
+				assets, such as improved outdoor benches and tables. Large scale improvements would not be possible without the
+				help of our most generous alumni, for example: the fence alone was fully paid for through alumni donations of over $6,000! 
+			</p>
+			
+			<!--use stripe for payments, however variables can&#39;t be set up -->
+			<h2>
+			Make a Donation!
+			</h2>
+			
+			<div id = "paypal">
+				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="S4QD2MYYNUBZU">
+				<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+				</form>
+			</div>
+			
+			<!-- future donation setup through stripe-->
+			
+			<!-- <div id = "founders"> -->
+				<!-- <p> -->
+				<!-- <b>Founders&#39; Donation</b> - $18.47 -->
+				<!-- </p> -->
+				
+				<!-- <form action="/charge" method="POST"> -->
+				  <!-- <script -->
+					<!-- src="https://checkout.stripe.com/checkout.js" -->
+					<!-- class="stripe-button" -->
+					<!-- data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh" -->
+					<!-- data-image="/square-image.png" -->
+					<!-- data-name="Donation" -->
+					<!-- data-description="Founders&#39; Donation ($18.47)" -->
+					<!-- data-amount="1847"> -->
+				  <!-- </script> -->
+				<!-- </form> -->
+			<!-- </div> -->
+			
+			<!-- <div id = "alphaPi"> -->
+				<!-- <p> -->
+				<!-- <b>Alpha Pi Donation</b> - $51.70 -->
+				<!-- </p> -->
+				
+				<!-- <form action="/charge" method="POST"> -->
+				  <!-- <script -->
+					<!-- src="https://checkout.stripe.com/checkout.js" -->
+					<!-- class="stripe-button" -->
+					<!-- data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh" -->
+					<!-- data-image="/square-image.png" -->
+					<!-- data-name="Donation" -->
+					<!-- data-description="Alpha Pi Donation ($51.70)" -->
+					<!-- data-amount="5170"> -->
+				  <!-- </script> -->
+				<!-- </form> -->
+			<!-- </div> -->
+			
+			<h2>Donations Through Venmo</h2>
+			<p>
+				If you would like to make a donation to the Alpha Pi chapter, but cannot use PayPal, we also accept venmo,
+				a service provided by PayPal. With venmo, you can easily send money to our treasurer, Josh Rehm. 
+				His venmo username is @Josh-Rehm.<br><br>Venmo is available on the App Store as well as the Google
+				Play store and is very easy to use. Simply download the app, add your payment information
+				to it(such as a bank or credit card), and it will securely transfer the money
+				to the treasurer&#39;s account. 
+			</p>
+		</div>
+	</body>
+	
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script src="js/donationsScript.js"></script>
+	
+</html>

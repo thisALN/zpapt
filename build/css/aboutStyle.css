@@ -1,0 +1,103 @@
+body{
+	margin:0px;
+	overflow: auto;
+}
+
+#topImage {
+	height: 25%;
+	width: 100%;
+	background: url(../images/houseWide.png);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+
+#title {
+	font-size: 6vw;
+	color: white;
+	text-align: center;
+	margin:0px;
+	padding-top: 10%;
+	padding-bottom: 4%;
+}
+
+.menu {
+	display: inline-block;
+	color: white;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	margin:0px;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.menu:hover{
+	background-color: green;
+}
+
+#donations{
+	display: inline-block;
+	color: white;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	margin:0px;
+	margin-right: .5%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	background-color: blue;
+	float: right;
+	border-radius : 15%;
+}
+
+#donations:hover{
+	background-color: silver;
+}
+
+#fullMenu{
+	background-color: #333;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+}
+
+.text{
+	width: 75%;
+	text-align: center;
+	margin:auto;
+	font-size: 20px;
+}
+
+#about{
+	text-align: center;
+	margin:auto;
+	font-size: 40px;
+}
+
+.pDiv{
+	max-width: 75%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+}
+
+#lowerBackground{
+	background-color:#ece1a0;
+	padding: 5%;
+	padding-top:2.5%;
+	padding-bottom:2.5%;
+	display: flex;
+	overflow: auto;
+	background-size: cover;
+}
+
+#leftSide{
+	float: left;
+	width:50%;
+}
+
+#facebook{
+	margin-top: 10%;
+	float: left;
+	width:30%;
+}
